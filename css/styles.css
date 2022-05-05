@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box-1 {
+  width: 180px;
+  height: 80px;
+  background-color: #f44336;
+
+  /*  The value can be pixels  */
+  border-radius: 10px;
+}
+
+.box-2 {
+  width: 120px;
+  height: 120px;
+  background-color: #2196f3;
+
+  /*  The value can be percent  */
+  border-radius: 20%;
+}
+
+.box-3 {
+  width: 150px;
+  height: 150px;
+  background-color: #4caf50;
+
+  /*  If the block is a square, settings the radius to 50% will transform it to a circle  */
+  border-radius: 50%;
+}
+
+.box-1,
+.box-2 {
+  margin-bottom: 20px;
+}
